@@ -46,7 +46,6 @@ public class AttachmentController {
     @GetMapping("/{attachmentId}")
     public ResponseEntity<PathResource> download(@LoginUser User loginUser, @PathVariable long attachmentId) throws Exception {
         AttachmentInfo attachmentInfo = attachmentService.findById(attachmentId);
-        log.debug("resource path : {}", attachmentInfo.getFileDirectory() + attachmentInfo.getFileUuid());
         Path path = Paths.get(attachmentInfo.getFileDirectory() + attachmentInfo.getFileUuid());
         PathResource resource = new PathResource(path);
 
