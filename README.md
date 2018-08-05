@@ -2,7 +2,7 @@
 깃허브의 이슈관리 시스템을 모방해 구현한 프로젝트  
 ---  
 
-**Project duration** : 1개월 (2018.07)   
+**Project duration** : 1개월 (2018.06)   
 **Language** : Java 1.8, Javascript, HTML, CSS   
 **Skill specification** : Spring boot, JPA, jQuery, JUnit, Gradle, Handlebars.java  
 **개발 인원** : 1명  
